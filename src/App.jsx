@@ -8,6 +8,7 @@ import Products from "./pages/Products";
 import Scheme from "./pages/Scheme";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
+import FloatingCallButton from "./components/FloatingCallButton";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
 
         {/* Footer always at bottom */}
         <Footer />
+        <FloatingCallButton />
       </div>
     </BrowserRouter>
   );
