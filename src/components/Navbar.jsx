@@ -73,7 +73,7 @@ function Navbar() {
           <Link
             to="/"
             onClick={() => setIsOpen(false)}
-            className="block hover:text-yellow-300 transition-colors"
+            className="block hover:text-yellow-300 transition-colors pt-6"
           >
             Home
           </Link>

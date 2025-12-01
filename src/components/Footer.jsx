@@ -93,7 +93,7 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
           {/* Contact */}
           <div className="space-y-3">
-            <h3 className="text-base font-semibold text-white uppercase tracking-wide">
+            <h3 className="text-base font-semibold text-white uppercase tracking-wide border-b-2 border-yellow-400 pb-1 inline-block">
               Contact
             </h3>
 
@@ -148,11 +148,12 @@ function Footer() {
             </p>
           </div>
 
-          {/* Explore More */}
+          {/* Quick Links */}
           <div className="space-y-3">
-            <h3 className="text-base font-semibold text-white uppercase tracking-wide">
-              Explore More
+            <h3 className="text-base font-semibold text-white uppercase tracking-wide border-b-2 border-yellow-400 pb-1 inline-block">
+              Quick Links
             </h3>
+
             <ul className="space-y-1">
               <li>
                 <Link to="/" className="hover:text-green-400 transition">
@@ -200,7 +201,7 @@ function Footer() {
 
           {/* Other Links / Info */}
           <div className="space-y-3">
-            <h3 className="text-base font-semibold text-white uppercase tracking-wide">
+            <h3 className="text-base font-semibold text-white uppercase tracking-wide border-b-2 border-yellow-400 pb-1 inline-block">
               Other Links
             </h3>
             <ul className="space-y-1">

@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Pagination ko static position me laane ke liye */
+.swiper-pagination {
+   position: static !important;
+   margin-top: 0px !important;
+   /* bullets ko thoda space dene ke liye */
+}
+
+/* Bullets styling */
+.swiper-pagination-bullet {
+   background: rgb(148 163 184);
+   /* slate-400 */
+   opacity: 1;
+   width: 10px;
+   height: 10px;
+}
+
+.swiper-pagination-bullet-active {
+   background: rgb(52 211 153);
+   /* emerald-400 */
+}

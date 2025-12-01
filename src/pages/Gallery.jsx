@@ -57,7 +57,7 @@ function Gallery() {
             <img
               src={img}
               alt={`Project ${i + 1}`}
-              className="rounded-lg shadow-md hover:scale-105 transition-transform duration-300 object-cover max-h-[220px] w-full h-full"
+              className="rounded-lg shadow-md hover:scale-105 transition-transform duration-300 object-cover w-full overflow-hidden h-[220px] lg:h-[240px]"
             />
           </a>
         ))}
