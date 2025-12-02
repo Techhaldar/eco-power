@@ -90,7 +90,7 @@ function Footer() {
         </div>
 
         {/* Middle section: Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 sm:gap-24 text-sm">
           {/* Contact */}
           <div className="space-y-3">
             <h3 className="text-base font-semibold text-white uppercase tracking-wide border-b-2 border-yellow-400 pb-1 inline-block">
@@ -108,10 +108,10 @@ function Footer() {
                 <path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z" />
               </svg>
               <a
-                href="mailto:ratinhaldar123@gmail.com"
+                href="mailto:ecopowersolarsolutions@gmail.com"
                 className="hover:text-green-400 transition"
               >
-                ratinhaldar123@gmail.com
+                ecopowersolarsolutions@gmail.com
               </a>
             </p>
 
@@ -133,7 +133,7 @@ function Footer() {
               </a>
             </p>
 
-            <p className="flex items-start justify-center gap-2">
+            <p className="flex items-start gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="30"
@@ -154,7 +154,7 @@ function Footer() {
               Quick Links
             </h3>
 
-            <ul className="space-y-1">
+            <ul className="space-y-1 grid grid-cols-2 gap-4">
               <li>
                 <Link to="/" className="hover:text-green-400 transition">
                   Home
@@ -195,45 +195,6 @@ function Footer() {
                 <Link to="/contact" className="hover:text-green-400 transition">
                   Contact
                 </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Other Links / Info */}
-          <div className="space-y-3">
-            <h3 className="text-base font-semibold text-white uppercase tracking-wide border-b-2 border-yellow-400 pb-1 inline-block">
-              Other Links
-            </h3>
-            <ul className="space-y-1">
-              <li>
-                <a href="#faqs" className="hover:text-green-400 transition">
-                  FAQs
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-green-400 transition">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-green-400 transition">
-                  Terms & Conditions
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-green-400 transition">
-                  Refund & Cancellation
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-green-400 transition">
-                  Installation & Support
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-green-400 transition">
-                  Careers
-                </a>
               </li>
             </ul>
           </div>

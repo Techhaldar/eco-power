@@ -96,7 +96,7 @@ const Testimonials = () => {
           {testimonials.map((item) => (
             <SwiperSlide key={item.id} className="h-auto flex">
               <article
-                className="relative h-full flex flex-col bg-slate-900/60 border border-slate-800 rounded-2xl p-6 gap-4 hover:border-emerald-500/60 hover:shadow-xl hover:shadow-emerald-500/10 transition group min-h-[230px] sm:min-h-[250px] lg:min-h-[280px]
+                className="relative h-full flex flex-col bg-slate-900/60 border border-slate-800 rounded-2xl p-6 gap-4 hover:border-emerald-500/60 hover:shadow-xl hover:shadow-emerald-500/10 transition group min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]
 "
               >
                 {/* Quote icon */}
