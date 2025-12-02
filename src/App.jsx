@@ -10,10 +10,13 @@ import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import FloatingCallButton from "./components/FloatingCallButton";
 import MobileOfferBar from "./components/MobileOfferBar";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
+
       {/* Full page layout */}
       <div className="min-h-screen flex flex-col">
         <MobileOfferBar />

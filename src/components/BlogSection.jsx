@@ -34,7 +34,7 @@ const BlogSection = () => {
   return (
     <section
       id="blogs"
-      className="bg-slate-950 text-white py-16 px-4 sm:px-6 lg:px-12"
+      className="bg-slate-950 text-white py-8 px-4 sm:px-6 lg:pb-12"
     >
       {/* Heading */}
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-10">

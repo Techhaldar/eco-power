@@ -4,7 +4,7 @@ function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-gradient-to-r from-gray-900 via-black to-gray-900 text-gray-300 mt-12">
+    <footer className="bg-gradient-to-r from-gray-900 via-black to-gray-900 text-gray-300">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
         {/* Top section: Brand + Tagline */}
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between border-b border-gray-800 pb-6">

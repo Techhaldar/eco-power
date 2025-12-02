@@ -15,4 +15,5 @@ export default {
     },
   },
   plugins: [],
+  base: '/eco-power'
 };

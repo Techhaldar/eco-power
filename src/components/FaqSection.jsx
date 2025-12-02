@@ -97,7 +97,7 @@ export default function FaqSection() {
   return (
     <section className="w-full bg-[url('/faq-bg.jpg')] bg-cover bg-center bg-fixed">
       {/* overlay */}
-      <div className="w-full bg-black/80">
+      <div className="w-full bg-black">
         <div className="mx-auto max-w-4xl px-4 py-8 sm:py-12">
           <h2
             className="text-center text-3xl sm:text-4xl font-extrabold text-white"

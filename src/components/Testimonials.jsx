@@ -64,7 +64,7 @@ const Testimonials = () => {
   return (
     <section
       id="testimonials"
-      className="py-16 bg-slate-950 text-white px-4 sm:px-6 lg:px-12"
+      className="py-8 bg-slate-950 text-white px-4 sm:px-6 lg:pt-12"
     >
       {/* Heading */}
       <div className="max-w-4xl mx-auto text-center mb-10">
