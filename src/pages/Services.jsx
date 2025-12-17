@@ -2,7 +2,7 @@ function Services() {
   const services = [
     {
       title: "Residential Solar",
-      img: "/src/assets/images/Residential-Solar.webp",
+      img: "../src/assets/images/Residential-Solar.webp",
       desc: "Rooftop solar solutions for homes with PM Surya Ghar subsidy benefits.",
       points: [
         "Up to ₹85,800 Government Subsidy",
@@ -12,7 +12,7 @@ function Services() {
     },
     {
       title: "Commercial Solar",
-      img: "/src/assets/images/Commercial-Solar.webp",
+      img: "../src/assets/images/Commercial-Solar.webp",
       desc: "High-capacity solar systems for offices, shops & factories.",
       points: [
         "High ROI & Low Maintenance",
@@ -22,7 +22,7 @@ function Services() {
     },
     {
       title: "Installation & Maintenance",
-      img: "/src/assets/images/Installation-and-Maintenance.webp",
+      img: "../src/assets/images/Installation-and-Maintenance.webp",
       desc: "End-to-end installation with expert maintenance support.",
       points: [
         "Professional Installation",
