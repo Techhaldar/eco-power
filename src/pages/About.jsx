@@ -57,29 +57,29 @@ function About() {
                 Why Choose Us?
               </h2>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li className="flex items-start gap-2">
-                  <span className="mt-1 h-2 w-2 rounded-full bg-green-500" />
+                <li className="flex items-start sm:items-center gap-2">
+                  <span className="mt-2 sm:mt-0 h-2 w-2 rounded-full bg-green-500 shrink-0" />
                   <span>
                     End–to–end support – site visit, design, installation, and
                     post–installation service.
                   </span>
                 </li>
-                <li className="flex items-start gap-2">
-                  <span className="mt-1 h-2 w-2 rounded-full bg-green-500" />
+                <li className="flex items-start sm:items-center gap-2">
+                  <span className="mt-2 sm:mt-0 h-2 w-2 rounded-full bg-green-500 shrink-0" />
                   <span>
                     High–efficiency solar panels and inverters from trusted
                     brands like TATA Power &amp; WAAREE.
                   </span>
                 </li>
-                <li className="flex items-start gap-2">
-                  <span className="mt-1 h-2 w-2 rounded-full bg-green-500" />
+                <li className="flex items-start sm:items-center gap-2">
+                  <span className="mt-2 sm:mt-0 h-2 w-2 rounded-full bg-green-500 shrink-0" />
                   <span>
                     Proper guidance for government subsidy under PM Surya Ghar
                     Muft Bijli Yojana.
                   </span>
                 </li>
-                <li className="flex items-start gap-2">
-                  <span className="mt-1 h-2 w-2 rounded-full bg-green-500" />
+                <li className="flex items-start sm:items-center gap-2">
+                  <span className="mt-2 sm:mt-0 h-2 w-2 rounded-full bg-green-500 shrink-0" />
                   <span>
                     Neat, professional installation with focus on safety &
                     long–term performance.
