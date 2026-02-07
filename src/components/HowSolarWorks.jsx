@@ -3,8 +3,8 @@ export default function HowSolarWorks() {
     <section className="w-full bg-black py-8 sm:py-12">
       <div className="max-w-6xl mx-auto px-6">
         {/* Heading */}
-        <h2 className="text-4xl font-bold text-center text-green-400 mb-12">
-          How Solar Works
+        <h2 className="text-4xl font-bold text-center text-white mb-12">
+          How Solar <span className="text-emerald-400">Works</span>
         </h2>
 
         {/* Steps */}

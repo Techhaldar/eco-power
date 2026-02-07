@@ -64,7 +64,7 @@ function FaqItem({ question, answer, isOpen, onClick }) {
           {question}
         </span>
 
-        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#2a2a2a]">
+        <span className="shrink-0 flex h-8 w-8 items-center justify-center rounded-full bg-[#2a2a2a]">
           {/* plus / minus icon */}
           <svg
             xmlns="http://www.w3.org/2000/svg"

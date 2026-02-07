@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import FloatingCallButton from "./components/FloatingCallButton";
 import MobileOfferBar from "./components/MobileOfferBar";
 import ScrollToTop from "./components/ScrollToTop.jsx";
+import FloatingContactBar from "./components/FloatingContactBar";
 
 function App() {
   return (
@@ -39,7 +40,8 @@ function App() {
         {/* Footer always at bottom */}
 
         <Footer />
-        <FloatingCallButton />
+        {/* <FloatingCallButton /> */}
+        <FloatingContactBar />
       </div>
     </BrowserRouter>
   );

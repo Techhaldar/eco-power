@@ -1,8 +1,6 @@
-// src/components/Testimonials.jsx
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 
-// Swiper styles import karna zaruri hai
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -14,7 +12,8 @@ const testimonials = [
     role: "Homeowner",
     message:
       "Mera electricity bill lagbhag 6,000₹ se 1,500₹ ke aas-paas aa gaya hai. Installation time par hua aur team ne sab kuch clearly explain kiya.",
-    rating: 5,
+
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
     id: 2,
@@ -23,7 +22,8 @@ const testimonials = [
     role: "Small Business Owner",
     message:
       "Shop ke liye on-grid solar lagwaya. Power cut me bhi inverter backup mil jata hai aur monthly saving bhi achhi ho rahi hai.",
-    rating: 4,
+
+    image: "https://randomuser.me/api/portraits/women/44.jpg",
   },
   {
     id: 3,
@@ -32,7 +32,8 @@ const testimonials = [
     role: "Factory Owner",
     message:
       "Industrial load ke liye unhone proper survey karke system design kiya. ROI clear tha, isliye decision lena easy ho gaya.",
-    rating: 5,
+
+    image: "https://randomuser.me/api/portraits/men/46.jpg",
   },
   {
     id: 4,
@@ -41,24 +42,10 @@ const testimonials = [
     role: "Factory Owner",
     message:
       "Industrial load ke liye unhone proper survey karke system design kiya. ROI clear tha, isliye decision lena easy ho gaya.",
-    rating: 5,
+
+    image: "https://randomuser.me/api/portraits/men/64.jpg",
   },
 ];
-
-const StarRating = ({ count }) => {
-  return (
-    <div className="flex items-center gap-1 text-yellow-400 text-sm">
-      {Array.from({ length: count }).map((_, idx) => (
-        <span key={idx}>★</span>
-      ))}
-      {Array.from({ length: 5 - count }).map((_, idx) => (
-        <span key={idx} className="text-slate-600">
-          ★
-        </span>
-      ))}
-    </div>
-  );
-};
 
 const Testimonials = () => {
   return (
@@ -111,16 +98,23 @@ const Testimonials = () => {
 
                 {/* Bottom info */}
                 <div className="mt-2 flex items-center justify-between gap-3">
-                  <div>
-                    <h3 className="text-sm font-semibold text-white">
-                      {item.name}
-                    </h3>
-                    <p className="text-xs text-slate-400">
-                      {item.role} • {item.location}
-                    </p>
-                  </div>
+                  <div className="flex items-center gap-3">
+                    {/* Profile Image */}
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      className="w-11 h-11 rounded-full object-cover border-2 border-emerald-400 shadow-md"
+                    />
 
-                  <StarRating count={item.rating} />
+                    <div>
+                      <h3 className="text-sm font-semibold text-white">
+                        {item.name}
+                      </h3>
+                      <p className="text-xs text-slate-400">
+                        {item.role} • {item.location}
+                      </p>
+                    </div>
+                  </div>
                 </div>
 
                 {/* Glow overlay */}

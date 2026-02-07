@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
+import { Phone, Mail, MapPin } from "lucide-react";
 
 function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-gradient-to-r from-gray-900 via-black to-gray-900 text-gray-300">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
+    <footer
+      id="footer"
+      className="bg-gradient-to-r from-gray-900 via-black to-gray-900 text-gray-300"
+    >
+      <div className="max-w-6xl mx-auto px-4 lg:px-8 py-10 space-y-8">
         {/* Top section: Brand + Tagline */}
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between border-b border-gray-800 pb-6">
           <div className="text-center sm:text-left">
@@ -17,7 +21,6 @@ function Footer() {
             </p>
           </div>
 
-          {/* Social Icons */}
           <div className="flex justify-center sm:justify-end gap-3">
             <a
               href="https://www.facebook.com/profile.php?id=61582773907302"
@@ -26,7 +29,6 @@ function Footer() {
               className="w-12 h-12 p-1 rounded-full border border-gray-700 flex items-center justify-center hover:border-blue-500 hover:text-blue-400 transition"
               aria-label="Facebook"
             >
-              {/* Facebook Icon */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 640 640"
@@ -43,7 +45,6 @@ function Footer() {
               className="w-12 h-12 p-1 rounded-full border border-gray-700 flex items-center justify-center hover:border-pink-500 hover:text-pink-400 transition"
               aria-label="Instagram"
             >
-              {/* Instagram Icon */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 640 640"
@@ -60,7 +61,6 @@ function Footer() {
               className="w-12 h-12 p-1 rounded-full border border-gray-700 flex items-center justify-center hover:border-green-500 hover:text-green-400 transition"
               aria-label="WhatsApp"
             >
-              {/* WhatsApp Icon */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 640 640"
@@ -77,7 +77,6 @@ function Footer() {
               className="w-12 h-12 p-1 rounded-full border border-gray-700 flex items-center justify-center hover:border-red-500 hover:text-red-400 transition"
               aria-label="YouTube"
             >
-              {/* YouTube Icon */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 640 640"
@@ -89,24 +88,14 @@ function Footer() {
           </div>
         </div>
 
-        {/* Middle section: Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16 sm:gap-24 text-sm">
-          {/* Contact */}
           <div className="space-y-3">
             <h3 className="text-base font-semibold text-white uppercase tracking-wide border-b-2 border-yellow-400 pb-1 inline-block">
               Contact
             </h3>
 
             <p className="flex items-center gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewBox="0 -960 960 960"
-                width="24"
-                fill="#e3e3e3"
-              >
-                <path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z" />
-              </svg>
+              <Mail className="shrink-0 w-6 h-6" />
               <a
                 href="mailto:ecopowersolarsolutions@gmail.com"
                 className="hover:text-green-400 transition"
@@ -116,15 +105,7 @@ function Footer() {
             </p>
 
             <p className="flex items-center gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewBox="0 -960 960 960"
-                width="24"
-                fill="#e3e3e3"
-              >
-                <path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z" />
-              </svg>
+              <Phone className="shrink-0 w-6 h-6" />
               <a
                 href="tel:9068202706"
                 className="hover:text-green-400 transition"
@@ -134,15 +115,7 @@ function Footer() {
             </p>
 
             <p className="flex items-start gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="30"
-                viewBox="0 -960 960 960"
-                width="30"
-                fill="#e3e3e3"
-              >
-                <path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z" />
-              </svg>
+              <MapPin className="shrink-0 w-6 h-6" />
               Address: Melaghat Road, Jankaiya – Khatima, U.S. Nagar
               (Uttarakhand)
             </p>
