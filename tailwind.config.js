@@ -6,7 +6,7 @@ export default {
       keyframes: {
         marquee: {
           "0%": { transform: "translateX(0)" },
-          "100%": { transform: "translateX(-50%)" }, // 👈 sirf aadha slide
+          "100%": { transform: "translateX(-50%)" },
         },
       },
       animation: {
