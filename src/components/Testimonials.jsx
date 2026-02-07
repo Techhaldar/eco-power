@@ -51,10 +51,9 @@ const Testimonials = () => {
   return (
     <section
       id="testimonials"
-      className="py-8 bg-slate-950 text-white px-4 sm:px-6 lg:pt-12"
+      className="py-8 bg-slate-950 text-white  lg:pt-12"
     >
-      {/* Heading */}
-      <div className="max-w-4xl mx-auto text-center mb-10">
+      <div className="max-w-4xl px-4 mx-auto text-center mb-10">
         <p className="text-emerald-400 text-xs font-semibold tracking-[0.25em] uppercase">
           Testimonials
         </p>
@@ -68,7 +67,7 @@ const Testimonials = () => {
       </div>
 
       {/* Swiper Slider */}
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-7xl px-4 mx-auto">
         <Swiper
           modules={[Pagination, Autoplay]}
           spaceBetween={20}

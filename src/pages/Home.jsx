@@ -8,11 +8,11 @@ function Home() {
   return (
     <>
       <Hero />
-      <HowSolarWorks />
       <KeyHighlights />
-      <FaqSection />
+      <HowSolarWorks />
       <Testimonials />
       <BlogSection />
+      <FaqSection />
     </>
   );
 }

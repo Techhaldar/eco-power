@@ -32,12 +32,9 @@ const blogPosts = [
 
 const BlogSection = () => {
   return (
-    <section
-      id="blogs"
-      className="bg-slate-950 text-white py-8 px-4 sm:px-6 lg:pb-12"
-    >
+    <section id="blogs" className="bg-slate-950 text-white py-8   lg:pb-12">
       {/* Heading */}
-      <div className="max-w-6xl mx-auto flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-10">
+      <div className="max-w-7xl mx-auto flex flex-col px-4 sm:flex-row sm:items-end sm:justify-between gap-6 mb-10">
         <div>
           <p className="text-emerald-400 text-xs font-semibold uppercase tracking-[0.2em]">
             BLOGS & INSIGHTS
@@ -59,7 +56,7 @@ const BlogSection = () => {
       </div>
 
       {/* Blog Cards */}
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="max-w-7xl px-4 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {blogPosts.map((post) => (
           <article
             key={post.id}

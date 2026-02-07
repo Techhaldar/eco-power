@@ -101,7 +101,7 @@ const highlights = [
 
 const KeyHighlights = () => {
   return (
-    <section className="py-8 bg-slate-950 text-white px-4 sm:px-6 lg:px-12">
+    <section className="py-8 bg-slate-950 text-white ">
       {/* Heading */}
       <div className="text-center max-w-3xl mx-auto mb-12">
         <h2 className="text-3xl sm:text-4xl font-semibold mt-2">
@@ -115,7 +115,7 @@ const KeyHighlights = () => {
       </div>
 
       {/* Highlight Cards */}
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="max-w-7xl mx-auto grid lg:px-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {highlights.map((item) => (
           <div
             key={item.id}

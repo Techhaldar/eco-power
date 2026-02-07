@@ -9,7 +9,7 @@ function Footer() {
       id="footer"
       className="bg-gradient-to-r from-gray-900 via-black to-gray-900 text-gray-300"
     >
-      <div className="max-w-6xl mx-auto px-4 lg:px-8 py-10 space-y-8">
+      <div className="max-w-7xl mx-auto px-4 py-10 space-y-8">
         {/* Top section: Brand + Tagline */}
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between border-b border-gray-800 pb-6">
           <div className="text-center sm:text-left">
@@ -88,7 +88,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 sm:gap-24 text-sm">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-sm">
           <div className="space-y-3">
             <h3 className="text-base font-semibold text-white uppercase tracking-wide border-b-2 border-yellow-400 pb-1 inline-block">
               Contact
@@ -173,7 +173,6 @@ function Footer() {
           </div>
         </div>
 
-        {/* Bottom bar */}
         <div className="border-t border-gray-800 pt-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-gray-500">
           <p className="text-center sm:text-left">
             © {year} ECO POWER SOLAR SOLUTIONS. All rights reserved.
