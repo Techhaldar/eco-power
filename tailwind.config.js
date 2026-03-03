@@ -1,4 +1,3 @@
-// tailwind.config.js
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -10,7 +9,7 @@ export default {
         },
       },
       animation: {
-        marquee: "marquee 18s linear infinite", // speed adjust kar sakte ho
+        marquee: "marquee 18s linear infinite",
       },
     },
   },

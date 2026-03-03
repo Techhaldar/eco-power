@@ -38,7 +38,6 @@ function Services() {
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-14">
-      {/* Heading */}
       <h1 className="text-4xl font-bold text-center text-blue-700 mb-4">
         Our Solar Services
       </h1>
@@ -49,14 +48,12 @@ function Services() {
         help you save money and protect the environment.
       </p>
 
-      {/* Services Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
         {services.map((service, i) => (
           <div
             key={i}
             className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden group"
           >
-            {/* Image */}
             <div className="h-48 overflow-hidden">
               <img
                 src={service.img}
@@ -65,7 +62,6 @@ function Services() {
               />
             </div>
 
-            {/* Content */}
             <div className="p-6">
               <h3 className="text-xl font-semibold text-green-600 mb-2">
                 {service.title}

@@ -1,5 +1,3 @@
-// src/components/KeyHighlights.jsx
-
 const highlights = [
   {
     id: 1,
@@ -115,7 +113,7 @@ const KeyHighlights = () => {
       </div>
 
       {/* Highlight Cards */}
-      <div className="max-w-7xl mx-auto grid lg:px-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="max-w-7xl mx-auto grid px-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {highlights.map((item) => (
           <div
             key={item.id}

@@ -18,13 +18,10 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
 
-      {/* Full page layout */}
       <div className="min-h-screen flex flex-col">
         <MobileOfferBar />
-        {/* Top Navbar */}
         <Navbar />
 
-        {/* Main content area */}
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -37,10 +34,7 @@ function App() {
           </Routes>
         </main>
 
-        {/* Footer always at bottom */}
-
         <Footer />
-        {/* <FloatingCallButton /> */}
         <FloatingContactBar />
       </div>
     </BrowserRouter>
